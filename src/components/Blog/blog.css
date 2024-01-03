@@ -1,0 +1,55 @@
+
+.contour{
+    margin: 20px;
+    border-radius: 10px;
+}
+
+.mainBlog{
+    width: 100%;
+    background-color: transparent;
+    min-height: 440px;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+
+.mainBlogText h2{
+    font-size: 3.0rem;
+}
+
+.mainBlogText span{
+    font-size: 1.2rem;
+    font-weight: 400;
+}
+
+.postFilter{
+    background-color: aliceblue;
+    padding: 2%;
+}
+
+
+.filter-item{
+    color: #081b29;
+    font-weight: 600;
+    margin-left: 20px;
+    padding:4px;
+    min-width: 50px;
+    background-color: transparent;
+    border: 2px solid #081b29;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.active{
+    color: white;
+    margin-left: 20px;
+    padding: 4px;
+    min-width: 50px;
+    background-color: #081b29;
+    border: 2px solid #081b29;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+
+
